@@ -1,0 +1,28 @@
+{
+    "name": "marcelodiasachneider/googleauth",
+    "description": "Google Auth",
+    "minimum-stability": "stable",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Marcelo Dias Schneider",
+            "email": "marcelo.d.schneider@gmail.com",
+            "role": "Developer",
+            "homepage": "https://marceloschneider.dev.br/"
+        }
+    ],
+    "config": {
+        "vendor-dir": "vendor"
+    },
+    "autoload": {
+        "psr-4": {
+            "Source\\": "source/"
+        },
+        "files": [
+            "source/Config.php"
+        ]
+    },
+    "require": {
+        "league/oauth2-google": "4.0.*"
+    }
+}
